@@ -1,0 +1,16 @@
+# Git specific aliases for the lazy
+alias gst='git status'
+alias gl='git pull --stat --ff-only --all'
+alias glr='git pull --rebase --stat --ff-only --all'
+alias gp='git push'
+alias gd='git diff | mate'
+alias gc='git commit -v'
+alias gca='git commit -v -a'
+alias gco='git checkout'
+alias gb='git branch'
+alias gbv='git branch -v'
+alias gba='git branch -a'
+alias gsa='git stash apply stash@{$1}'
+alias gbt='git branch --set-upstream'
+
+alias frebase='rm -fr .git/rebase-apply'

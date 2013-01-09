@@ -1,0 +1,34 @@
+# Launch Apps
+alias bbgo="cd ~/Sites/BatchBook/; ./script/server"
+alias hmgo="cd ~/Sites/Hammock/; rails s"
+alias bdgo="cd ~/Sites/BatchDeux/; rails s"
+alias hsgo="cd ~/Sites/BatchHaus/; shotgun hausres.rb"
+alias sbgo="cd ~/Sites/SBWeb/; ./script/server"
+
+#App Tools
+alias dbstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias dbstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+alias psa="ps aux | grep"
+alias slr="cd ~/Sites/Batchdeux/; rake sunspot:solr:start"
+
+# alias remigrate='rake db:migrate:redo && rake db:test:clone'
+alias migrate='rake db:migrate && rake db:test:clone'
+
+#BB Shortcuts
+alias bbk="cd ~/Sites/Batchbook"
+alias bbd="cd ~/Sites/BatchDeux"
+alias haus="cd ~/Sites/BatchHaus/"
+alias hmk="cd ~/Sites/Hammock"
+alias mcmOG="cd ~/Sites/mcm_og/"
+alias mcm="cd ~/Sites/MarCommV2"
+alias sbw="cd ~/Sites/SBWeb"
+alias frnd="cd ~/Sites/customerfriendly.biz"
+
+alias slk="cd ~/Sites/Slacker"
+
+# DEPLOY
+alias mcdp="rake marcomm:pull"
+alias bddp="cd ~/Sites/BatchDeux/; rake bb2:staging vlad:deploy"
+
+# Personal Stuff
+alias brd="cd ~/Sites/bigringdesign.com"

@@ -1,0 +1,2 @@
+PS1='\h:\[\e[1;32m\]\W \[\e[0;30m\e[45m\]$(__git_ps1 "%s")\[\e[0m\] \u$ '
+export EDITOR="subl -w"
