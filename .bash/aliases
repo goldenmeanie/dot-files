@@ -23,6 +23,8 @@ alias mcmOG="cd ~/Sites/mcm_og/"
 alias mcm="cd ~/Sites/MarCommV2"
 alias sbw="cd ~/Sites/SBWeb"
 alias frnd="cd ~/Sites/customerfriendly.biz"
+alias mcm-sassy="cd ~/Sites/MarCommV2;sass --watch scss:css --style compressed"
+
 
 alias slk="cd ~/Sites/Slacker"
 
