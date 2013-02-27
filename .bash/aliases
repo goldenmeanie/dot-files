@@ -31,3 +31,6 @@ alias bddp="cd ~/Sites/BatchDeux/; rake bb2:staging vlad:deploy"
 # Personal Stuff
 alias brd="cd ~/Sites/bigringdesign.com"
 alias rekkid="cd ~/Sites/rekkid"
+
+# Remove duplicates from the OS X "Open With..."" menu
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
