@@ -1,0 +1,6 @@
+*
+!.gitignore
+!.gitconfig
+!.bash_profile
+!.bash
+!.bash_it
