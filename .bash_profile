@@ -3,8 +3,8 @@
 # Load RVM, if you are using it
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
-# Add rvm gems and nginx to the path
-export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
+# Add rvm gems to the path
+export PATH=$PATH:~/.gem/ruby/1.8/bin
 
 # Path to the bash it configuration
 export BASH_IT=$HOME/.bash_it
