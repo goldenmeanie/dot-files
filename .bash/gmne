@@ -1,0 +1,14 @@
+# GMNE PERSONAL STUFF
+
+# Deploy Luke’s site
+alias lkdp="rsync -avz -e 'ssh -p 2222' --delete ~/Sites/lukifer.com/_site/* alex@96.126.110.42:web/lukifer.com"
+
+# Personal Stuff
+alias brd="cd ~/Sites/bigringdesign.com"
+alias rekkid="cd ~/Sites/rekkid"
+
+# Remove duplicates from the OS X "Open With..."" menu
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+
+# Stop using throttled CDNs for Youtube streaming
+alias stopsucking="sudo ipfw add reject src-ip 173.194.55.0/24 in;sudo ipfw add reject src-ip 206.111.0.0/16 in"

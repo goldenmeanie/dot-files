@@ -1,11 +1,4 @@
-# Launch Apps
-alias bbgo="cd ~/Sites/BatchBook/; ./script/server"
-alias hmgo="cd ~/Sites/Hammock/; rails s"
-alias bdgo="cd ~/Sites/BatchDeux/; rails s"
-alias hsgo="cd ~/Sites/BatchHaus/; shotgun hausres.rb"
-alias sbgo="cd ~/Sites/SBWeb/; ./script/server"
-
-#App Tools
+# MISCELLANEOUS TOOLS
 alias dbstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias dbstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 alias psa="ps aux | grep"
@@ -13,7 +6,9 @@ alias psa="ps aux | grep"
 # alias remigrate='rake db:migrate:redo && rake db:test:clone'
 alias migrate='rake db:migrate && rake db:test:clone'
 
-#BB Shortcuts
+# BB SHORTCUTS
+
+# Go places
 alias bbk="cd ~/Sites/Batchbook"
 alias bbd="cd ~/Sites/BatchDeux"
 alias haus="cd ~/Sites/BatchHaus/"
@@ -22,19 +17,25 @@ alias mcmOG="cd ~/Sites/mcm_og/"
 alias mcm="cd ~/Sites/MarCommV2"
 alias sbw="cd ~/Sites/SBWeb"
 alias frnd="cd ~/Sites/customerfriendly.biz"
-alias mcm-sassy="cd ~/Sites/MarCommV2;sass --watch scss:css --style compressed"
 
-# DEPLOY
+# BB Contractor Forks of Marcomm
+alias dnmcm="cd ~/Sites/dn-marcomm"
+alias jvmcm="cd ~/Sites/jv-marcomm"
+
+# Tell SASS to watch a site
+alias sassy="sass --watch scss:css --style compressed"
+
+# Deploy Marcomm
 alias mcdp="rake marcomm:pull"
-alias bddp="cd ~/Sites/BatchDeux/; rake bb2:staging vlad:deploy"
-alias lkdp="rsync -avz -e 'ssh -p 2222' —delete ~/Sites/lukifer.com/_site/* alex@96.126.110.42:web/lukifer.com"
 
-# Personal Stuff
-alias brd="cd ~/Sites/bigringdesign.com"
-alias rekkid="cd ~/Sites/rekkid"
 
-# Remove duplicates from the OS X "Open With..."" menu
-alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+# Launch Apps
+# OGBB
+alias bbgo="cd ~/Sites/BatchBook/; ./script/server"
 
-# Stop using throttled CDNs for Youtube streaming
-alias stopsucking="sudo ipfw add reject src-ip 173.194.55.0/24 in;sudo ipfw add reject src-ip 206.111.0.0/16 in"
+# BB2
+alias bdgo="cd ~/Sites/BatchDeux/; foreman start"
+
+#BatchHaus
+alias hsgo="cd ~/Sites/BatchHaus/; shotgun hausres.rb"
+

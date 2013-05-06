@@ -44,6 +44,7 @@ source $BASH_IT/bash_it.sh
 
 # But I like MY aliases!
 source ~/.bash/aliases
+source ~/.bash/gmne
 source ~/.bash/git
 source ~/.bash/paths
 # source ~/.bash/config
