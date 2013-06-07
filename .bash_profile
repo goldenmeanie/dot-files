@@ -48,3 +48,5 @@ source ~/.bash/gmne
 source ~/.bash/git
 source ~/.bash/paths
 # source ~/.bash/config
+
+export PATH=$PATH:/usr/local/sbin
