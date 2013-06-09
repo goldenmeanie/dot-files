@@ -16,10 +16,6 @@ export BASH_IT_THEME='bobby'
 # Your place for hosting Git repos. I use this for private repos.
 export GIT_HOSTING='git@git.domain.com'
 
-# Set my editor and git editor
-export EDITOR="/usr/local/bin/subl -w"
-export GIT_EDITOR='/usr/local/bin/subl -w'
-
 # Set the path nginx
 export NGINX_PATH='/usr/local/etc/nginx/'
 
@@ -47,6 +43,6 @@ source ~/.bash/aliases
 source ~/.bash/gmne
 source ~/.bash/git
 source ~/.bash/paths
-# source ~/.bash/config
+source ~/.bash/config
 
 export PATH=$PATH:/usr/local/sbin
