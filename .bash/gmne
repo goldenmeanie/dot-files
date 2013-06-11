@@ -2,6 +2,7 @@
 
 # Deploy Luke’s site
 alias lkdp="rsync -avz -e 'ssh -p 2222' --delete ~/Sites/lukifer.com/_site/* alex@96.126.110.42:web/lukifer.com"
+alias gmnedp="rsync -avz -e 'ssh -p 2222' --delete ~/Sites/goldenmeanie.net/_site/* alex@96.126.110.42:web/goldenmeanie.net/public"
 
 # Personal Stuff
 alias brd="cd ~/Sites/bigringdesign.com"
