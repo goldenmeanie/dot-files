@@ -1,2 +1,5 @@
-PS1='\h:\[\e[1;32m\]\W \[\e[0;30m\e[45m\]$(__git_ps1 "%s")\[\e[0m\] \u$ '
+#PS1='\h:\[\e[1;32m\]\W \[\e[0;30m\e[45m\]$(__git_ps1 "%s")\[\e[0m\] \u$ '
+
+# Set my editor and git editor
 export EDITOR="subl -w"
+export GIT_EDITOR='subl -w'

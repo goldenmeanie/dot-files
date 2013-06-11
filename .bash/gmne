@@ -8,6 +8,7 @@ alias gmnedp="rsync -avz -e 'ssh -p 2222' --delete ~/Sites/goldenmeanie.net/_sit
 alias brd="cd ~/Sites/bigringdesign.com"
 alias rekkid="cd ~/Sites/rekkid"
 alias gmne="cd ~/Sites/goldenmeanie.net"
+alias drg="cd ~/Sites/davidrgammons.com"
 
 # Remove duplicates from the OS X "Open With..."" menu
 alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
