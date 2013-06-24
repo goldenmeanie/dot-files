@@ -1,0 +1,9 @@
+# Git has to be told about this file using "git config --global core.excludesfile ~/.gitignore-global"
+
+.DS_Store
+*.sublime-workspace
+.sass-cache
+
+# BB2 Specific files
+Procfile.ssl
+server.*

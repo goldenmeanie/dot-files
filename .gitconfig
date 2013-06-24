@@ -1,6 +1,7 @@
 [core]
 	editor = subl -w
 	autocrlf = input
+	excludesfile = /Users/alex/.gitignore-global
 [user]
 	name = Alex Taylor
 	email = alex@goldenmeanie.net
