@@ -1,5 +1,10 @@
-# MISCELLANEOUS TOOLS
-alias psa="ps aux | grep"
+# Jump to projects
+alias brd="cd ~/Sites/bigringdesign.com"
+alias drg="cd ~/Sites/davidrgammons.com"
+alias gmne="cd ~/Sites/goldenmeanie.net"
+alias luk="cd ~/Sites/lukifer.com"
+alias pcs="cd ~/Sites/paul-cuffee-codeclub"
+alias spat="cd ~/Sites/spatially.com"
 
-# Tell SASS to watch a site
-alias sassy="sass --watch scss:css --style compressed"
+# Tools
+alias psa="ps aux | grep"
